@@ -7,6 +7,7 @@ interfaceFunc({
     name: "monzil",
     email: "monzil@gmail.com",
     password: "12345",
+    age: "20"
 });
 let c;
 function valueFunc(obj) { }

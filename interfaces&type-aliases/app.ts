@@ -7,14 +7,14 @@
 // 5* Union & Intersection types
 
 //1,2
-interface User {
+interface MyUser {
   name: string;
   email: string;
   password: string;
   age?: string; //optional -> ?
 }
 
-function interfaceFunc(obj: User) {
+function interfaceFunc(obj: MyUser) {
   console.log(obj.name);
 }
 
@@ -22,6 +22,7 @@ interfaceFunc({
   name: "monzil",
   email: "monzil@gmail.com",
   password: "12345",
+  age: "20"
 });
 
 //3
